@@ -15,10 +15,28 @@
     --barlow-font: 'Barlow', sans-serif;
 }
 
+/* image icons */
+.icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    background-color: var(--orange);
+    border-radius: 1rem;
+}
+
+
+
 body{
     font-family: var(--barlow-font);
+    background-color: #F2F2F2;
 }
 
 .wrapper{
-    width: 20.4375rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
