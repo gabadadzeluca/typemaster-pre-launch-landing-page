@@ -26,17 +26,71 @@
     border-radius: 1rem;
 }
 
-
+h1,h2,h3,button{
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
 
 body{
     font-family: var(--barlow-font);
     background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper{
-    width: 100%;
+    width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+/* header style */
+.header-line{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header{
+    width: 20.4375rem;
+}
+
+.header-keyboard img{
+    width: 372px;
+    height: 331px;
+    position: relative;
+    left: 0;
+}
+.header-2{
+    width: 110%;
+    height: 193px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    right: 24px;
+}
+
+
+/* edit photos */
+#g-k{
+    width: 220px;
+    border-radius: 1rem;
+}
+
+#p-k{
+    width: 129px;
+    border-radius: 1rem;
+    /* add color !!!*/
+}
+
+.buttons-div{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
 
