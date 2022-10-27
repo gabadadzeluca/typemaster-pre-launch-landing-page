@@ -418,5 +418,24 @@ footer{
     .box p{
         height: 8.125rem;
     }
+    #bg-pattern-1{
+        display: none;
+        position: absolute;
+        right: -7.96875rem;
+        top: 12.25rem;
+        z-index: -1;
+    }
+    #bg-pattern-2{
+        display: none;
+        position: absolute;
+        left: -7.96875rem;
+        top: 59.375rem;
+        z-index: -1;
+    }
+}
 
+@media screen and (min-width: 1400px) {
+    #bg-pattern-1, #bg-pattern-2{
+        display: block;
+    }
 }
