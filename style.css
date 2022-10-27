@@ -94,6 +94,7 @@ header{
     position: relative;
     left: 0;
     border-radius: 0.5rem;
+    margin-top: 4rem;
 }
 
 header h1{
@@ -120,6 +121,7 @@ button{
 }
 #button-colorless{
     background-color: transparent;
+    color: var(--light-blue)
 }
 
 /* middle part */
@@ -210,13 +212,13 @@ footer{
         border-radius: 1rem;
     }
     .wrapper{
-        width: 48rem;
+        width: 43.0625rem;
     }
 
 
     /* HEADER */
     header{
-        width: 43.0625rem;
+        width: 100%;
     }
     .header-1{
         display: inline-flex;
@@ -298,5 +300,123 @@ footer{
     .header-2 div{
         height: 20rem;
     }
-            
+}
+
+@media screen and (min-width: 75rem) {
+    .mobile, .tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+        border-radius: 1rem;
+    }
+
+    .wrapper{
+        width: 1110px;
+    }
+
+    /* Button */
+    button{
+        width: 10.9375rem;
+    }
+    /* hover */
+    #button-gray:hover{
+        color: var(--white);
+        background-color: var(--dark-blue);
+        cursor: pointer;
+    }
+    #button-orange:hover{
+        color: var(--white);
+        background-color: var(--yellow);
+        cursor: pointer;
+    }
+   
+
+    
+   
+    /* font-size */
+    header h1{
+        font-size:3.5rem;
+    }
+
+    /* HEADER */
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ad{
+        width: 27.8125rem;
+        height: 19.5rem;
+    }
+    .ad p{
+        font-size: 1.125rem;
+    }
+    .buttons-div{
+        width: 21.5rem;
+    }
+    .header-keyboard .desktop{
+        width: 33.75rem;
+        height: 30rem;
+    }
+
+    .g-k{
+        height: 30rem;
+        width: 27.8125rem;
+    }
+    .p-k{
+        width: 15.9375rem;
+        height: 30rem;
+    } 
+
+    main{
+        display: flex;
+        width: 100%;
+    }
+
+    .header-2 div{
+        height: 30rem;
+    }
+    .header-2{
+        width: 45.625rem;
+        justify-content: space-between;
+    }
+
+    .first{
+        display: flex;
+        justify-content: space-between;
+    }
+    .first *{
+        margin: 0;
+    }
+    .first{
+        margin-top: 1.5rem;
+    }
+    .inline-box{
+        display: flex;
+        flex-direction: column;
+        width: 15.9375rem;
+        height: 15.5625rem;
+        height: 470px;
+        justify-content: center;
+    }
+    .inline-box p{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .box{
+        width: 255px;
+        height: 323px;
+        justify-items: space-between;
+    }
+    .box p{
+        height: 8.125rem;
+    }
+
 }
