@@ -13,7 +13,7 @@
 
 ### Screenshots
 
-![]((type-master-landing-page-screenshot.png)
+![](type-master-landing-page-screenshot.png)
 ![](screenshot-1.png)
 ![](screenshot-2.png)
 
