@@ -52,6 +52,7 @@ body{
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .wrapper{
@@ -62,7 +63,7 @@ body{
 }
 
 
-/* header style */
+/* HEADER  */
 .header-line{
     display: inline-flex;
     justify-content: space-between;
@@ -84,36 +85,25 @@ body{
 header{
     width: 20.4375rem;
 }
-
 .header-keyboard img{
-    width: 372px;
-    height: 331px;
+    width: 23.25rem;
+    height: 20.6875rem;
     position: relative;
     left: 0;
+    border-radius: 0.5rem;
 }
 
 header h1{
     font-size: 3rem;
 }
 
-/* edit photos */
-#g-k{
-    width: 13.75rem;
-    border-radius: 1rem;
-}
-
-#p-k{
-    width: 8.0625rem;
-    border-radius: 1rem;
-    /* add color !!!*/        
-}
 
 
 
 /* general buttons*/
 button{
-    width: 150px;
-    height: 48px;
+    width: 9.375rem;
+    height: 3rem;
     border-radius: 0.5rem;
     border: none;
 }
@@ -137,12 +127,40 @@ main{
 }
 
 .header-2{
-    width: 100%;
-    height: 193px;
+    width: 23.75rem;
+    height: 12.0625rem;
     display: inline-flex;
     justify-content: space-between;
     position: relative;
     right: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+/* edit photos */
+#g-k{
+    width: 13.75rem;
+    border-radius: 1rem;
+}
+
+#p-k{
+    width: 8.0625rem;
+    border-radius: 1rem;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    /* add color !!!*/  
+}
+/* adding color to img */
+.header-2 div{
+    background-color: var(--orange);
+    border-radius: 1rem;
+}
+
+.inline-box{
+    height: 14.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .first h2{
     font-size: 2rem;
@@ -173,3 +191,6 @@ footer{
 }
 
 
+@media screen and (min-width: 48rem) {
+    
+}
