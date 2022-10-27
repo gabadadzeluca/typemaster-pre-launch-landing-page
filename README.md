@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-![]((type-master-landing-page-screenshot.png)
+![](type-master-landing-page-screenshot.png)
 
 ### Links
 
