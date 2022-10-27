@@ -53,6 +53,7 @@ body{
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+    min-width: 400px;
 }
 
 .wrapper{
@@ -65,6 +66,8 @@ body{
 
 /* HEADER  */
 .header-line{
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -73,8 +76,8 @@ body{
 .ad{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 24.875rem;
+    justify-content: space-between;
+    height: 17.875rem;
 }
 .buttons-div{
     display: inline-flex;
@@ -85,7 +88,7 @@ body{
 header{
     width: 20.4375rem;
 }
-.header-keyboard img{
+.header-keyboard .mobile{
     width: 23.25rem;
     height: 20.6875rem;
     position: relative;
@@ -96,7 +99,6 @@ header{
 header h1{
     font-size: 3rem;
 }
-
 
 
 
@@ -134,21 +136,19 @@ main{
     position: relative;
     right: 1.5rem;
     margin-top: 1.5rem;
-    margin-bottom: 3rem;
 }
 
 /* edit photos */
-#g-k{
+.g-k{
     width: 13.75rem;
     border-radius: 1rem;
 }
 
-#p-k{
+.p-k{
     width: 8.0625rem;
     border-radius: 1rem;
     mix-blend-mode: multiply;
     opacity: 0.75;
-    /* add color !!!*/  
 }
 /* adding color to img */
 .header-2 div{
@@ -156,7 +156,9 @@ main{
     border-radius: 1rem;
 }
 
+
 .inline-box{
+    margin-top: 3rem;
     height: 14.75rem;
     display: flex;
     flex-direction: column;
@@ -191,6 +193,110 @@ footer{
 }
 
 
-@media screen and (min-width: 48rem) {
+@media screen and (max-width: 48rem) {
+    .tablet, .desktop{
+        display: none;
+    }
     
+}
+
+/* tablet screen - 768px */
+@media screen and (min-width: 48rem) {
+    .mobile, .desktop{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        border-radius: 1rem;
+    }
+    .wrapper{
+        width: 48rem;
+    }
+
+
+    /* HEADER */
+    header{
+        width: 43.0625rem;
+    }
+    .header-1{
+        display: inline-flex;
+        align-items: center;
+    }
+    .header-keyboard .tablet{
+        width: 29.875rem;
+        height: 25.5625rem;
+        position: relative;
+        right: -5rem;
+    }
+
+    /* BUTTONS */
+    button{
+        width: 10.9375rem;
+        height: 3.625rem;
+    }
+
+
+    /* MAIN */
+    main{
+        width: 43.0625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .first{
+        height: 31.25rem;
+        margin-bottom: 142px;
+    }
+    .header-2{
+        position: unset;
+        width: 100%;
+    }
+    .inline-box{
+        margin-top: 4.5rem;
+        width: 100%;
+        flex-direction: row;
+        text-align:justify;
+    }
+    
+    .inline-box h2{
+        width:15.9375rem;
+    }
+    .inline-box p{
+        width: 24.875rem;
+    }
+
+
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .box{
+        align-items: flex-start;
+        text-align: justify;
+        width: 17.5625rem;
+        margin-bottom: 4.5rem;
+    }
+    /* IMAGES */
+    .g-k{
+        width: 13.75rem;
+        border-radius: 1rem;
+    }
+
+    .p-k{
+        width: 13.375rem;
+        height: 20rem;
+        border-radius: 1rem;
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+    }
+    .g-k{
+        width:27.8125rem;
+        height: 20rem;
+    }
+    /* adding color to img */
+    .header-2 div{
+        height: 20rem;
+    }
+            
 }
