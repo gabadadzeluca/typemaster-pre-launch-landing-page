@@ -13,9 +13,10 @@
 
 ### Screenshots
 
-![](type-master-landing-page-screenshot.png)
+![]((type-master-landing-page-screenshot.png)
 ![](screenshot-1.png)
 ![](screenshot-2.png)
+
 ### Links
 
 - Solution URL: [GitHub](https://github.com/gabadadzeluca/typemaster-pre-launch-landing-page)
