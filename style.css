@@ -53,7 +53,7 @@ body{
     display: flex;
     justify-content: center;
     overflow-x: hidden;
-    min-width: 400px;
+    min-width: 25rem;
 }
 
 .wrapper{
@@ -247,7 +247,7 @@ footer{
     }
     .first{
         height: 31.25rem;
-        margin-bottom: 142px;
+        margin-bottom: 8.875rem;
     }
     .header-2{
         position: unset;
@@ -312,7 +312,7 @@ footer{
     }
 
     .wrapper{
-        width: 1110px;
+        width: 69.375rem; /* 1110px */
     }
 
     /* Button */
@@ -345,6 +345,10 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .header-line{
+        margin-top: 3.5rem;
+        margin-bottom: 5.1875rem;
     }
     .header-1{
         width: 100%;
@@ -402,7 +406,7 @@ footer{
         flex-direction: column;
         width: 15.9375rem;
         height: 15.5625rem;
-        height: 470px;
+        height: 29.375rem;
         justify-content: center;
     }
     .inline-box p{
@@ -411,8 +415,8 @@ footer{
     }
 
     .box{
-        width: 255px;
-        height: 323px;
+        width: 15.9375rem;
+        height: 20.1875rem;
         justify-items: space-between;
     }
     .box p{
@@ -434,7 +438,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 87.5rem) {
     #bg-pattern-1, #bg-pattern-2{
         display: block;
     }
