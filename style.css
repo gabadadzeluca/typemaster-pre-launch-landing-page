@@ -148,7 +148,7 @@ main{
 
 .p-k{
     width: 8.0625rem;
-    border-radius: 1rem;
+    border-radius: 1rem; 
     mix-blend-mode: multiply;
     opacity: 0.75;
 }
@@ -199,7 +199,12 @@ footer{
     .tablet, .desktop{
         display: none;
     }
-    
+    .p-k{
+        border-radius: 0 1rem 1rem 0 !important;
+    }
+    .header-2 div{
+        border-radius: 0 1rem 1rem 0 !important;
+    }
 }
 
 /* tablet screen - 768px */
